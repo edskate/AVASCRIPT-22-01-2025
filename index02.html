@@ -15,12 +15,31 @@
             text-shadow: -1px 1px 1px #000;
             margin: 30px 
         }
+        div{
+            border: 3px solid;
+            width: 200px;
+            background-color: aquamarine;
+            height: 100px;
+            margin: 30px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
     <h1>Dom:</h1>
     <h1>javascript dom events list.</h1>
 <i>MDM.</i>
+
+<div id="area" onclick="clicar()">
+
+    Interja
+</div>
+<script>
+function clicar(){
+var a = window.document.getElementById("area")
+a.innerText = "clicou!"
+}
+</script>
 
 </body>
 </html>
